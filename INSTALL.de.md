@@ -1,8 +1,13 @@
 # Handy-App einrichten
 
-Der erste öffentliche Download ist in Vorbereitung. Dieses Repository enthält
-die Anleitung und später die Handy-APK unter **Releases**. Die TV-App wird
+Die Handy-App ist der Android-Begleiter für **[KFritz ab Version 0.5.0](https://github.com/Agundur-KDE/kfritz/releases/tag/v0.5.0)**
+auf dem KDE-Plasma-Desktop. **KFritz 0.4.1 oder älter reicht dafür nicht aus.**
+Die Handy-APK gibt es separat unter **[Releases](https://github.com/Agundur-KDE/ScreenRing-Phone/releases)**.
+Die TV-App wird
 separat über Google Play angeboten; sie ist hier nicht enthalten.
+
+Der Handy-Download ist zunächst eine **Alpha zum Testen**. Die passenden
+KFritz-Pakete und die Handy-APK werden gemeinsam freigegeben.
 
 ## Installation
 
@@ -15,8 +20,10 @@ benötigt. Handy und Empfänger müssen sich im lokalen Netzwerk erreichen könn
    allein beweist nicht die Identität des Herausgebers.
 2. Im Browser oder Dateimanager die Installation aus dieser Quelle erlauben,
    die APK installieren und die Freigabe anschließend bei Bedarf wieder entziehen.
-3. Im Empfänger Handy-Empfang einschalten. Adresse und Verbindungsschlüssel in
-   die Handy-App übernehmen. Den Schlüssel nicht veröffentlichen oder an Dritte geben.
+3. In KFritz unter **Einstellungen → Handyanrufe** den Empfang einschalten,
+   Verbindungsschlüssel erzeugen und speichern. In der Handy-App das **KFritz-/
+   Desktop-Ziel** einschalten, lokale Rechneradresse, Port (standardmäßig **10123**)
+   und Schlüssel übernehmen. Den Schlüssel nicht veröffentlichen oder an Dritte geben.
 4. Telefonstatus erlauben. Rufnummer/Kontaktname sind optional; nur bei aktivierten
    Anruferdetails werden die zusätzlichen Berechtigungen angefordert.
 5. Weitergabe starten und eine Testmeldung senden. TEST pausiert keinen Film.
@@ -48,7 +55,19 @@ Die App benötigt kein Entwickler-Cloudkonto und enthält keine Werbe- oder
 Analyse-SDKs. Einstellungen und Schlüssel bleiben im privaten App-Speicher;
 Android-Backup und Geräteübertragung sind deaktiviert.
 
+Bei Problemen prüfen, ob Rechner und KFritz laufen und sich Handy und Rechner
+im Heimnetz erreichen können. Gast-WLAN, Client-Isolation und eine Firewall
+können den Empfang blockieren. Den Empfangsport nur im vertrauenswürdigen
+Heimnetz freigeben. Eine FRITZ!Box ist für den Transport der Handymeldung nicht nötig.
+
 Keine Zusage für WhatsApp/VoIP, ausgehende Anrufe, Gesprächsübertragung oder
 automatisches Fortsetzen. Festnetzanrufe von der FRITZ!Box empfängt die TV-App
-auch ohne Handy-App. Öffentliche Support- und endgültige Datenschutzangaben
-werden vor dem ersten Release ergänzt.
+auch ohne Handy-App. Handy und TV können direkt gekoppelt werden; KFritz ist
+kein erforderlicher Vermittler für diesen Weg.
+
+[Datenschutz und Berechtigungen](PRIVACY.md) ·
+[Hilfe und Fehlermeldungen](https://github.com/Agundur-KDE/ScreenRing-Phone/issues)
+
+Keine echten Anruferdaten, Schlüssel oder unbereinigten Logs in öffentliche
+Fehlermeldungen einfügen. Dieses Repository veröffentlicht die fertige Handy-APK,
+nicht deren Quellcode. KFritz selbst bleibt ein separates GPL-Projekt.
