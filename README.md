@@ -4,7 +4,7 @@
   <p><strong>Your Android rings. KFritz lets your desktop know.</strong></p>
   <p>Incoming-call alerts on KDE Plasma, over your local network.</p>
   <p>
-    <a href="https://github.com/Agundur-KDE/ScreenRing-Phone/releases"><img src="https://img.shields.io/badge/Download-Android_APK-68E1C5?style=for-the-badge&logo=android&logoColor=101E2D" alt="Download Android APK"></a>
+    <a href="https://github.com/Agundur-KDE/ScreenRing-Phone/releases/download/v0.6.0-alpha.2/ScreenRing-Phone-0.6.0-alpha.2.apk"><img src="https://img.shields.io/badge/Download-Android_APK-68E1C5?style=for-the-badge&logo=android&logoColor=101E2D" alt="Download Android APK"></a>
     <a href="https://github.com/Agundur-KDE/kfritz/releases/tag/v0.5.0"><img src="https://img.shields.io/badge/Requires-KFritz_0.5.0+-3498DB?style=for-the-badge&logo=kde&logoColor=white" alt="Requires KFritz 0.5.0 or newer"></a>
   </p>
   <p><a href="INSTALL.de.md">Deutsche Anleitung</a> · <a href="#pair-your-phone-in-a-minute">Setup</a> · <a href="PRIVACY.md">Privacy</a> · <a href="https://github.com/Agundur-KDE/ScreenRing-Phone/issues">Help & feedback</a></p>
@@ -35,14 +35,14 @@ the receivers you pair.
 ## Download both parts
 
 1. **Desktop:** install **[KFritz 0.5.0 or newer](https://github.com/Agundur-KDE/kfritz/releases/tag/v0.5.0)** for KDE Plasma.
-2. **Phone:** download the signed **[ScreenRing Phone APK](https://github.com/Agundur-KDE/ScreenRing-Phone/releases)**, plus `SHA256SUMS` and `SIGNER.txt` from the same release.
+2. **Phone:** download the signed **[ScreenRing Phone APK](https://github.com/Agundur-KDE/ScreenRing-Phone/releases/download/v0.6.0-alpha.2/ScreenRing-Phone-0.6.0-alpha.2.apk)**. Get `SHA256SUMS` and `SIGNER.txt` from [the same release](https://github.com/Agundur-KDE/ScreenRing-Phone/releases/tag/v0.6.0-alpha.2).
 
 > **Compatibility:** KFritz 0.4.1 and earlier do not have the ScreenRing mobile
 > receiver. The Android companion is currently an **alpha**, intended for testing;
 > this is not a promise of reliable operation on every phone or network.
 
-**Release status:** the signed phone alpha is prepared; the matching KFritz 0.5.0
-packages are being built. The two downloads will be released together.
+**Available downloads:** ScreenRing Phone **0.6.0-alpha.2** and KFritz **0.5.0**,
+with matching protocol support. Use the two releases linked above.
 
 **Requirements:** Android 8+, a phone with cellular calling, KDE Plasma with a
 compatible KFritz installation, and a local network that allows the devices to

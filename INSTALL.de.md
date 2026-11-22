@@ -7,7 +7,7 @@ Die TV-App wird
 separat über Google Play angeboten; sie ist hier nicht enthalten.
 
 Der Handy-Download ist zunächst eine **Alpha zum Testen**. Die passenden
-KFritz-Pakete und die Handy-APK werden gemeinsam freigegeben.
+KFritz-Pakete und die signierte Handy-APK sind in den verlinkten Releases verfügbar.
 
 ## Installation
 
