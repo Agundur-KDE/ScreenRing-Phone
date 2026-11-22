@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="assets/social-preview.jpg" width="100%" alt="ScreenRing Phone — Android call alerts on your KDE desktop with KFritz">
+  <img src="assets/social-preview-v2.jpg" width="100%" alt="ScreenRing Phone — phone call alerts on your KDE desktop with KFritz">
   <h1>ScreenRing Phone</h1>
   <p><strong>Your Android rings. KFritz lets your desktop know.</strong></p>
   <p>Incoming-call alerts on KDE Plasma, over your local network.</p>
   <p>
-    <a href="https://github.com/Agundur-KDE/ScreenRing-Phone/releases/download/v0.6.0-alpha.2/ScreenRing-Phone-0.6.0-alpha.2.apk"><img src="https://img.shields.io/badge/Download-Android_APK-68E1C5?style=for-the-badge&logo=android&logoColor=101E2D" alt="Download Android APK"></a>
+    <a href="https://github.com/Agundur-KDE/ScreenRing-Phone/releases/download/v0.6.0-alpha.2/ScreenRing-Phone-0.6.0-alpha.2.apk"><img src="https://img.shields.io/badge/Download-Android_APK-68E1C5?style=for-the-badge" alt="Download Android APK"></a>
     <a href="https://github.com/Agundur-KDE/kfritz/releases/tag/v0.5.0"><img src="https://img.shields.io/badge/Requires-KFritz_0.5.0+-3498DB?style=for-the-badge&logo=kde&logoColor=white" alt="Requires KFritz 0.5.0 or newer"></a>
   </p>
   <p><a href="INSTALL.de.md">Deutsche Anleitung</a> · <a href="#pair-your-phone-in-a-minute">Setup</a> · <a href="PRIVACY.md">Privacy</a> · <a href="https://github.com/Agundur-KDE/ScreenRing-Phone/issues">Help & feedback</a></p>
