@@ -1,0 +1,7 @@
+# This is a download repository. Commit only explicitly reviewed public files.
+*
+!/.gitignore
+!/AGENTS.md
+!/README.md
+!/INSTALL.de.md
+!/CHANGELOG.md
