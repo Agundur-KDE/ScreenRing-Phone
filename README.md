@@ -22,6 +22,15 @@ the repository's **Releases** section. Verify the checksum before installing.
 the same certificate. A checksum obtained alongside an APK detects corruption;
 it does not independently establish the publisher's identity.
 
+The SHA-256 fingerprint of the ScreenRing Phone release signing certificate is:
+
+```text
+e126db475859e63617676ac0030acb3ee3b87242779b26cdced241f1a7405d86
+```
+
+This is a public certificate fingerprint, not a pairing key. It must match the
+APK signing certificate and `SIGNER.txt` when the first download is published.
+
 Android will ask you to permit installation from your browser or file manager.
 You can turn this permission off again after installing. Existing development
 builds may use a different signing key and cannot be updated in place. Removing

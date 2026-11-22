@@ -21,6 +21,15 @@ benötigt. Handy und Empfänger müssen sich im lokalen Netzwerk erreichen könn
    Anruferdetails werden die zusätzlichen Berechtigungen angefordert.
 5. Weitergabe starten und eine Testmeldung senden. TEST pausiert keinen Film.
 
+Erwarteter SHA-256-Fingerabdruck des öffentlichen Handy-Signaturzertifikats:
+
+```text
+e126db475859e63617676ac0030acb3ee3b87242779b26cdced241f1a7405d86
+```
+
+Dies ist kein Verbindungsschlüssel. Der Fingerabdruck muss mit dem
+APK-Signaturzertifikat und `SIGNER.txt` des Downloads übereinstimmen.
+
 Entwicklerversionen mit Debug-Signatur können nicht einfach durch eine anders
 signierte Release-APK ersetzt werden. Eine Deinstallation löscht Einstellungen
 und Kopplung. Vor diesem Wechsel die Einrichtung planen.
