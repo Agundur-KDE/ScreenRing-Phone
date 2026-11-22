@@ -7,7 +7,7 @@
     <a href="https://github.com/Agundur-KDE/ScreenRing-Phone/releases/download/v0.6.0-alpha.2/ScreenRing-Phone-0.6.0-alpha.2.apk"><img src="https://img.shields.io/badge/Download-Android_APK-68E1C5?style=for-the-badge" alt="Download Android APK"></a>
     <a href="https://github.com/Agundur-KDE/kfritz/releases/tag/v0.5.0"><img src="https://img.shields.io/badge/Requires-KFritz_0.5.0+-3498DB?style=for-the-badge&logo=kde&logoColor=white" alt="Requires KFritz 0.5.0 or newer"></a>
   </p>
-  <p><a href="INSTALL.de.md">Deutsche Anleitung</a> · <a href="#pair-your-phone-in-a-minute">Setup</a> · <a href="PRIVACY.md">Privacy</a> · <a href="https://github.com/Agundur-KDE/ScreenRing-Phone/issues">Help & feedback</a></p>
+  <p><a href="INSTALL.de.md">Deutsche Anleitung</a> · <a href="#pair-your-phone-in-a-minute">Setup</a> · <a href="PRIVACY.md">Privacy</a> · <a href="https://github.com/Agundur-KDE/ScreenRing-Phone/discussions/1">Share your experience</a> · <a href="https://github.com/Agundur-KDE/ScreenRing-Phone/issues">Bug reports</a></p>
 </div>
 
 ## A companion for KFritz
@@ -110,6 +110,14 @@ desktop receiver, not a required relay for phone-to-TV delivery.** This reposito
 focuses on the publicly available KFritz desktop setup.
 
 ## Feedback and project information
+
+**Using ScreenRing Phone with KFritz? [Share your experience in Discussions](https://github.com/Agundur-KDE/ScreenRing-Phone/discussions/1).**
+Working setups, problems and ideas are all welcome. If useful, include app/KFritz
+versions, Android version, phone model, Linux distribution and what you tried.
+Real reports help us understand which setups are actually used; there is no need
+to endorse the app. This is voluntary feedback, not installation tracking.
+
+See also [the German KFritz project page](https://www.agundur.de/projects/fritzbox_callmonitor_for_kde.html#screenring-phone).
 
 Report reproducible problems in [Issues](https://github.com/Agundur-KDE/ScreenRing-Phone/issues).
 Include app/KFritz version, Android version and the error state — **no real
